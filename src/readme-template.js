@@ -1,13 +1,25 @@
 const generateReadMe = (name, github) => {
-    return `
-# README
+return `
+# Project title
 
-## Website
-https://${github}.github.io/run-buddy/
+## Description
 
-## Contribution
-Made with ❤️ by ${name} 
-    `;
+## Table of Contents
+
+## Installation
+${github}
+
+## Usage
+
+## License       
+
+## Contributing
+${name} 
+
+## Tests
+
+## Questions
+`;
 };
 
 // to allow 'generateReadMe' to be called from index.js
