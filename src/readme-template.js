@@ -1,58 +1,50 @@
-const generateReadMe = (name, github) => {
+const generateReadMe = (res) => {
 return `
-# Project title
-
-## Description
+# ${res.projectName}
 
 ## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Description
+${res.description}
 
 ## Installation
-${github}
+${res.instructions}
 
 ## Usage
+${res.usage}
 
 ## License       
+${renderBadge(res.license)}  
+${res.license}
 
 ## Contributing
-${name} 
+${res.contribution} 
 
 ## Tests
+${res.testing}
 
 ## Questions
+${res.email}
+
+## About Me
+GitHub: ${res.githubUser}
+Email: ${res.email}
 `;
 };
 
-// to allow 'generateReadMe' to be called from index.js
-// module.exports = generateReadMe;
-module.exports = templateData => {
-    console.log(templateData);
-    // destructure from templateData based on their property key names
-    const { readmeToc, readme, ...header } = templateData;
-return `
-# Project title ${header.githubUsername}
-Project repository: ${header.repo}
-
-# Description
-${readme.description}
-
-# Table of Contents
-
-# Installation
-${readme.installation}
-
-# Usage
-${readme.usage}
-
-# License       
-${readme.license}
-
-# Contributing
-${readme.contributing} 
-
-# Tests
-${readme.tests}
-
-# Questions
-For any further questions or concerns regarding the project, please contact ${header.email}.
-`;    
+function renderBadge(license) {
+    if(license !=='UNLICENSED') {
+    } return `![license](https://img.shields.io/badge/license-${license}-green.svg)`
 }
+
+// to allow 'generateReadMe' to be called from index.js
+module.exports = generateReadMe;
+
+
