@@ -1,3 +1,5 @@
+const fs = require('fs');
+const generateReadMe = require('./src/readme-template.js');
 const inquirer = require('inquirer');
 const promptUser = () => {
     return inquirer.prompt([
@@ -49,9 +51,9 @@ const promptUser = () => {
 
 const promptReadme = () => {
     console.log(`
-====================
-Generating README.md
-====================
+==============================
+Generating README.md Questions
+==============================
 `);
     return inquirer.prompt([
         // project title (required)
@@ -113,7 +115,7 @@ Generating README.md
             type: 'checkbox',
             name: 'license',
             message: 'What kind of license does this project contain?',
-            choices: ['MIT', 'Other']
+            choices: ['MIT', 'ISC', 'Apache-2.0', 'GPL-3.0', 'BSD-3-Clause', 'UNLICENSED']
         },
         // contribution / collaborators (optional)
         {
@@ -145,18 +147,23 @@ Generating README.md
 };
 
 promptUser()
-    .then(answers => console.log(answers))
+    // .then(answers => console.log(answers))
     .then(promptReadme)
-    .then(readmeAnswers => console.log(readmeAnswers));
+    // .then(readmeAnswers => console.log(readmeAnswers));
+    .then(readmeData => {
+    // const fileREADME = generateReadMe(readmeData);
+    // fs.writeFile('./README.md', fileREADME, err => {
+    //     if (err) throw err;
 
-// const fs = require('fs');
-// const generateReadMe = require('./src/readme-template.js');
+    //     console.log('README complete! Check out README.md to see the output!')
+    // });
+    });
 
-// const fileREADME = generateReadMe(name, github);
 
 
-// fs.writeFile('./README.md', fileREADME, err => {
-//     if (err) throw err;
 
-//     console.log('README complete! Check out README.md to see the output!')
-// });
+
+
+
+
+
