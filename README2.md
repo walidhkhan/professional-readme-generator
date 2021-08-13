@@ -1,5 +1,5 @@
 
-# c
+# a
 
 ## Table of Contents
 - [Description](#Description)
@@ -11,23 +11,27 @@
 - [Questions](#Questions)
 
 ## Description
-c
+a
 
 ## Installation
-c
+a
 
 ## Usage
-c
+a
 
 ## License       
-![license](https://img.shields.io/badge/license-MIT-green.svg)  
-MIT
+MIT  
+![license](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Contributing
-c 
+a 
 
 ## Tests
-c
+a
 
 ## Questions
-c
+For additional questions or concerns regarding this project, please email a
+
+## About Me
+GitHub: github.com/a  
+Email: a

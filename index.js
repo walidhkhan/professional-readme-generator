@@ -102,7 +102,7 @@ const questions = [
     {
         type: 'input',
         name: 'testing',
-        message: 'Please enter any information for this project:',
+        message: 'Please enter any testing information for this project:',
     },
 ]
 
@@ -110,7 +110,7 @@ function start(){
     inquirer.prompt(questions)
         .then(res => {
             console.log(res);
-            writeToFile('README2.md', generateReadMe(res));
+            writeToFile('README.md', generateReadMe(res));
         })
 }
 

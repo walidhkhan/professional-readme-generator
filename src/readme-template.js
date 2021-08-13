@@ -11,30 +11,44 @@ return `
 - [Tests](#Tests)
 - [Questions](#Questions)
 
+<div id='Desciption'/>
+
 ## Description
 ${res.description}
+
+<div id='Installation'/>
 
 ## Installation
 ${res.instructions}
 
+<div id='Usage'/>
+
 ## Usage
 ${res.usage}
 
+<div id='License'/>
+
 ## License       
-${renderBadge(res.license)}  
-${res.license}
+${res.license}  
+${renderBadge(res.license)}
+
+<div id='Contributing'/>
 
 ## Contributing
 ${res.contribution} 
 
+<div id='Tests'/>
+
 ## Tests
 ${res.testing}
 
-## Questions
-${res.email}
+<div id='Questions'/>
 
-## About Me
-GitHub: ${res.githubUser}
+## Questions
+For additional questions or concerns regarding this project, please contact the information below:
+
+**Contact information**  
+GitHub: github.com/${res.githubUser}  
 Email: ${res.email}
 `;
 };
