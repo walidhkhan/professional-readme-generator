@@ -1,5 +1,5 @@
 
-# a
+# Professional README Generator
 
 ## Table of Contents
 - [Description](#Description)
@@ -13,33 +13,35 @@
 <div id='Desciption'/>
 
 ## Description
-a
+Generator which creates README.md files for web development projects based on user's requirements.
 
 <div id='Installation'/>
 
 ## Installation
-a
+In order to use this project, please clone this repository and run 'node index' from the programs root directory.
 
 <div id='Usage'/>
 
 ## Usage
-a
+Please watch this video for project usage instructions:  
+<!-- ![instructions video](app-instructions-video.MP4)   -->
+<video src="app-instructions-video.MP4" controls> 
 
 <div id='License'/>
 
 ## License       
-MIT  
-![license](https://img.shields.io/badge/license-MIT-green.svg)
+UNLICENSED  
+![license](https://img.shields.io/badge/license-UNLICENSED-green.svg)
 
 <div id='Contributing'/>
 
 ## Contributing
-a 
+walidhkhan 
 
 <div id='Tests'/>
 
 ## Tests
-a
+N/A
 
 <div id='Questions'/>
 
@@ -47,5 +49,5 @@ a
 For additional questions or concerns regarding this project, please contact the information below:
 
 **Contact information**  
-GitHub: github.com/a  
-Email: a
+GitHub: github.com/walidhkhan  
+Email: walidhkhan@gmail.com
