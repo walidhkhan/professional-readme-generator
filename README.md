@@ -23,9 +23,8 @@ In order to use this project, please clone this repository and run 'node index' 
 <div id='Usage'/>
 
 ## Usage
-Please watch this video for project usage instructions:  
-<!-- ![instructions video](app-instructions-video.MP4)   -->
-<video src="app-instructions-video.MP4" controls> 
+For project usage instructions watch this video:  
+[Professional Readme Generator Walkthrough video](https://www.youtube.com/watch?v=_Ew0LdtDh3Y)
 
 <div id='License'/>
 
