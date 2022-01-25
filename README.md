@@ -16,7 +16,7 @@ Generator which creates README.md files for web development projects based on us
 <div id='Installation'/>
 
 ## Installation
-In order to use this project, please clone this repository, install the dependencies,  and run 'node index' from the programs root directory.
+In order to install this application, please clone this repository, install the dependencies by running 'npm i' in the terminal, and run 'node index' from the programs root directory.
 
 <div id='Usage'/>
 
