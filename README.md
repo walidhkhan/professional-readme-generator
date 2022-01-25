@@ -6,8 +6,6 @@
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License)
-- [Contributing](#Contributing)
-- [Tests](#Tests)
 - [Questions](#Questions)
 
 <div id='Desciption'/>
@@ -18,7 +16,7 @@ Generator which creates README.md files for web development projects based on us
 <div id='Installation'/>
 
 ## Installation
-In order to use this project, please clone this repository and run 'node index' from the programs root directory.
+In order to use this project, please clone this repository, install the dependencies,  and run 'node index' from the programs root directory.
 
 <div id='Usage'/>
 
@@ -31,16 +29,6 @@ For project usage instructions watch this video:
 ## License       
 UNLICENSED  
 ![license](https://img.shields.io/badge/license-UNLICENSED-green.svg)
-
-<div id='Contributing'/>
-
-## Contributing
-walidhkhan 
-
-<div id='Tests'/>
-
-## Tests
-N/A
 
 <div id='Questions'/>
 
