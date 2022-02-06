@@ -1,6 +1,8 @@
 
 # Professional README Generator
 
+<img src="src/imgs/readme-gen-pic.png">
+
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
